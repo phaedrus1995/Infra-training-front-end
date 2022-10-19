@@ -1,0 +1,10 @@
+{
+  "name": "training-docker-frontend",
+  "version": "1.0.0",
+  "description": "the front-end application which is used for display the message fetched from back-end",
+  "main": "app.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
