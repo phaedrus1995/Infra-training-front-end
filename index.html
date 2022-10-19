@@ -9,7 +9,7 @@
 <div id="fetched-data"/>
 </body>
 <script>
-  fetch('http://localhost:8082')
+  fetch('http://backend:8082')
     .then(res => res.json())
     .then((message) => {
       console.log(message);
