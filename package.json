@@ -1,7 +1,7 @@
 {
   "name": "training-docker-frontend",
   "version": "1.0.0",
-  "description": "the front-end application which is used for display the message fetched from back-end",
+  "description": "the front-end application which is used for displaying the message fetched from back-end",
   "main": "app.js",
   "license": "MIT",
   "dependencies": {

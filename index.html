@@ -6,5 +6,17 @@
 </head>
 <body>
 <div>Hallo World From Front-end</div>
+<div id="fetched-data"/>
 </body>
+<script>
+  fetch('http://localhost:8082')
+    .then(res => res.json())
+    .then((message) => {
+      console.log(message);
+      var z = document.createElement('p');
+      z.innerHTML = message;
+      document.body.appendChild(z);
+    }
+  );
+</script>
 </html>
